@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  
+    background-color: rgb(43, 41, 41);
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh; /* Utiliza el 100% de la altura de la ventana */
+}
+section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+input {
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgb(231, 231, 230);
+    border-radius: 5px;
+    box-shadow: 4px 3px 3px rgb(31, 30, 30);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.btn-primary {
+    padding: 8px 10px;
+    margin-left: 2px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid black;
+    color: white;
+    background-color:rgb(64, 168, 253);
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    transition: 0.3s;
+    background-color: rgb(16, 128, 219);
+}
+
+
+.btn-secondary {
+    background-color: orange;
+}
+
+.btn-del {
+    background-color: red;
+}
+
+
+ul {
+    list-style: none;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+}
+
+li {
+    display: flex;
+    gap: 10px;
+
+}
+
+.container {
+    text-align: center; /* Alinea el contenido del contenedor al centro */
+}
+
+
+.text-w {
+    color: white;
+}
+
